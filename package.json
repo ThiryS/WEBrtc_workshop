@@ -1,0 +1,32 @@
+{
+  "name": "webrtc_workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " ts-node src / index.ts ",
+    "dev": " nodemon --watch 'src / ** / *. ts' --exec 'ts-node' src / index.ts "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiryS/WEBrtc_workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThiryS/WEBrtc_workshop/issues"
+  },
+  "homepage": "https://github.com/ThiryS/WEBrtc_workshop#readme",
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/express": "^4.17.9",
+    "@types/socket.io": "^2.1.11",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
